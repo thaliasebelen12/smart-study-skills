@@ -1,35 +1,5 @@
-h1,
-h2,
-h3 {
-    color: #545452;
-    margin-bottom: 0;
-    text-align: center;
-}
 
-a {
-    color: cadetblue;
-}
 
-h1 {
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 0;
-}
-
-.title {
-    margin-top: 10%;
-    margin-bottom: 0;
-}
-
-.titletwo {
-    margin-top:2%;
-    margin-bottom: ;
-}
-
-.heading {
-    font-size: 35px;
-}
 
 .wrapper {
     width: 73%;
@@ -38,21 +8,17 @@ h1 {
 }
 
 .who {
-    padding: .2%;
-    background-color: #e3b37f;
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 2%;
-    width: inherit;
-    text-align: center;
+    margin: 60px 15% 50px 15%;
+    background-color: #edeae6;
+    font size: 20;
+    font-family: 'Merriweather', serif;
+
 }
 
-.heading p {
-    16px;
-}
 
 .body {
     background-color: #d6d6d6;
+    font-family: 'Jomolhari', serif;
     margin-top: 5%;
 }
 
@@ -60,10 +26,11 @@ h1 {
     width: 100%;
     background-color: #808287;
     box-shadow: 2px 2px 80px #85aba9;
-    margin-bottom: 50%;
+    margin-bottom:50%;
     position: fixed;
     left: 0;
     top: 0;
+
 }
 
 .nav-container ul {
@@ -71,12 +38,18 @@ h1 {
     margin-bottom: 2%;
     padding left: 10%;
     font-size: 30px;
+    font-family: 'Forum';
     letter-spacing: 1.5px;
+
 }
+
+
+
 
 .nav-container li {
     float: left;
     list-style: none;
+
 }
 
 .nav-container a {
@@ -95,13 +68,25 @@ h1 {
     color: cadetblue;
 }
 
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+
 .site-header {
     margin-bottom: 5%;
 }
 
-.site-footer {
-    background-color: #808287;
+.site-footer{
+    margin-top:;
+    margin-bottom: ;
+    padding: .5%;
+    background-color:  #808287;
     border-radius: 5px;
+
 }
 
 p {
@@ -109,24 +94,24 @@ p {
     color: #2e2d2b;
 }
 
-font-family: 'Jomolhari',
-serif;
+
 
 h2 {
     margin-top: auto;
     margin-bottom: 0px;
 }
 
+
 .attractor {
-    background-color: #dbdea2;
+    background-color:#dbdea2;
     text-align: center;
     border-radius: 5px;
     padding: .8%;
     margin-bottom: 2%;
 }
 
-.attractor p {
-    font-size: 20px;
+.attractor p{
+    font-size:20px;
 }
 
 .intro {
@@ -157,20 +142,23 @@ h2 {
 
 .List {
     background-color: darkgray;
+
     border-radius: 5px;
     padding: 2%;
 }
 
 .downloads {
     background-color: darksalmon;
+
     border-radius: 5px;
     padding: 2%;
 }
 
 .videos {
     background-color: beige;
-    padding: 5%;
+
     border-radius: 5px;
+
 }
 
 .videos ul {
@@ -189,7 +177,7 @@ h2 {
 }
 
 .podcast {
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
     border-radius: 5px;
     text-align: center;
 }
@@ -200,64 +188,60 @@ h2 {
     padding: 2%;
     background-color: burlywood;
     border-radius: 5px;
+
 }
 
 .when-to {
     margin-top: 2%;
     margin-bottom: 3%;
     padding: 2%;
-    background-color: aliceblue;
+    background-color:aliceblue;
     border-radius: 5px;
 }
 
-
+h1,
+h2,
 h3 {
-    text-align: center;
+    color: #2e2d2b;
 }
 
-.skills {
+
+a {
+  color:cadetblue;
+}
+
+.title{
+    margin-top: 10%;
+
+
+}
+
+.container1 {
+            background-color: #efefef;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+
+.skills{
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 3%;
     grid-column-gap: 3%;
     text-align: center;
-    padding: 2%;
-}
+    padding: 2%; }
 
-.banner {
-    height: 300px;
-    background-color: #cccccc;
-    background-image: url("../images/books.jpg");
-    background-size: cover;
-    background-size: contain;
-    line-height: 50px;
-    color: #000000;
-    padding-top: 70px;
-    margin-top: 8%;
-}
 
-.interleaving {
-    background-color: beige;
-    border-radius: 5px;
-    padding: 2%;
+.banner{
+	height:300px;
+    background-image: url("/images/banner.jpg");
+/*	background-image: url("images/banner2.jpg");*/
+	background-size:cover;
+	background-color: #cccccc;
+	font-size:80px;
+	text-align: center;
+	line-height: 50px;
+	color:#000000;
+	padding-top:70px;
+	margin: 0 0 20px 0;
 }
-
-.credits {
-    text-align: center;
-    padding: .1%;
-    background-color: lightblue;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.credits p {
-    font-size: 14px;
-}
-
