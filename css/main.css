@@ -4,6 +4,7 @@ h3 {
     color: #545452;
     margin-bottom: 0;
     text-align: center;
+
 }
 
 a {
@@ -35,6 +36,10 @@ h1 {
     width: 73%;
     margin: 0 auto;
     color: #2e2d2b;
+}
+
+.resourceList{
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .who {
