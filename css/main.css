@@ -1,15 +1,17 @@
+.body {
+    background-color: #d6d6d6;
+    margin-top: 5%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
 h1,
 h2,
 h3 {
     color: #545452;
     margin-bottom: 0;
     text-align: center;
-
 }
 
-a {
-    color: cadetblue;
-}
 
 h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -17,6 +19,24 @@ h1 {
     font-size: 50px;
     margin-bottom: 0;
     margin-top: 4%;
+    letter-spacing: 1.5px;
+}
+
+p,
+li {
+    font-size: 20px;
+    color: #2e2d2b;
+    margin-bottom: 1rem;
+}
+
+
+h2 {
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.heading p {
+    16px;
 }
 
 .title {
@@ -25,17 +45,26 @@ h1 {
 }
 
 .titletwo {
-    margin-top:0%;
+    margin-top: .5%;
+
 }
 
 .heading {
     font-size: 35px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .wrapper {
     width: 73%;
     margin: 0 auto;
     color: #2e2d2b;
+    background-color: floralwhite;
+    font-size: 20px;
 }
 
 .wrapper2 {
@@ -45,8 +74,8 @@ h1 {
     text-align: center;
 }
 
-.resourceList{
-    font-family: 'Cormorant Garamond', serif;
+.resourceList {
+    font-family: 'Raleway', sans-serif;
 }
 
 .who {
@@ -59,16 +88,6 @@ h1 {
     text-align: center;
 }
 
-.heading p {
-    16px;
-}
-
-.body {
-    background-color: #d6d6d6;
-    margin-top: 5%;
-}
-
-
 .site-header {
     margin-bottom: 5%;
 }
@@ -78,23 +97,13 @@ h1 {
     border-radius: 5px;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
-    color: #2e2d2b;
-}
-
-
-h2 {
-    margin-top: auto;
-    margin-bottom: 0px;
-}
-
 .attractor {
     background-color: #dbdea2;
     text-align: center;
     border-radius: 5px;
     padding: .8%;
-    margin-bottom: 2%;
+    margin-bottom: .5%;
+    margin-top: .3%;
 }
 
 .attractor p {
@@ -102,17 +111,18 @@ h2 {
 }
 
 .intro {
-    margin-top: 2%;
-    margin-bottom: 3%;
-    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
     background-color: darkgrey;
     border-radius: 5px;
+
 }
 
 .resources {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 3%;
-    padding: 2%;
+    padding: 1%;
     background-color: antiquewhite;
     border-radius: 5px;
 }
@@ -120,12 +130,25 @@ h2 {
 .highlights {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 1.5%;
+    margin-bottom: .5%;
     grid-column-gap: 3%;
-
+    font-size: 20px;
     padding: 2%;
 }
 
+.Highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: .5%;
+    grid-column-gap: 3%;
+    font-size: 20px;
+    padding: 2%;
+}
+
+
+a {
+    color: cadetblue;
+}
 
 .List {
     background-color: darkgray;
@@ -133,10 +156,38 @@ h2 {
     padding: 2%;
 }
 
+
+
 .downloads {
     background-color: darksalmon;
     border-radius: 5px;
     padding: 2%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-top: 25px;
+    height: 0;
+    clear: both;
+    outline: 1px solid red;
+}
+
+.videoWrapper.ratio-16-9 {
+    padding-bottom: 56.25%;
+    /* 16:9 */
+}
+
+.videoWrapper.ratio-4-3 {
+    padding-bottom: 75%;
+    /* 4:3 */
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .videos {
@@ -163,6 +214,7 @@ h2 {
 .podcast {
     background-color: blanchedalmond;
     border-radius: 5px;
+    padding: 1.5%;
 
 }
 
@@ -174,14 +226,14 @@ h2 {
     border-radius: 5px;
 }
 
-.how{
+.how {
     background-color: aliceblue;
 }
 
 .when-to {
     margin-top: 2%;
     margin-bottom: .5%;
-    padding: 2%;
+    padding: 1%;
     background-color: aliceblue;
     border-radius: 5px;
 }
@@ -225,6 +277,15 @@ h3 {
     font-size: 14px;
 }
 
+.middle {
+    margin-top: .5%;
+    padding: .7%;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -235,4 +296,3 @@ h3 {
 .credits p {
     font-size: 14px;
 }
-
