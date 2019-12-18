@@ -6,23 +6,33 @@
      <meta http-equiv="x-ua-compatible" content="ie=edge">
      <title>About</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
+
      <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/nav.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
 
  <body>
-     <div class="banner"></div>
-
-     <h1 class="titletwo">Smart Study Skills</h1>
 
      <header class="site-header">
-         <div class="nav-container">
-             <ul>
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="retrieval.html">Retrieval Practice</a></li>
-                 <li><a href="about.html">About</a></li>
-             </ul>
+         <div class="topnav" id="myTopnav">
+             <li><a href="index.html">Home</a>
+                 <a href="retrieval.html">Retrieval Practice</a>
+                 <a href="spacedpractice.html">Spaced Practice</a>
+                 <a href="elaboration.html">Elaboration</a>
+                 <a href="interleaving.html">Interleaving</a>
+                 <a href="concreteexamples.html">Concrete Examples</a>
+                 <a href="dualcoding.html">Dual Coding</a>
+                 <a href="about.html">About</a>
+                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
          </div>
      </header>
+
+     <h1 class="titletwo">Smart Study Skills</h1>
+     <div class="banner"></div>
+
 
      <main>
          <section class="who">
@@ -64,6 +74,18 @@
              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
          <p>Designed by Thalia Sebelen</p>
      </footer>
+
+     <script>
+         function myFunction() {
+             var x = document.getElementById("myTopnav");
+             if (x.className === "topnav") {
+                 x.className += " responsive";
+             } else {
+                 x.className = "topnav";
+             }
+         }
+
+     </script>
 
  </body>
 

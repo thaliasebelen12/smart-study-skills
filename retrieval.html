@@ -7,36 +7,51 @@
     <title>Retrieval Practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <div class="wrapper">
-        <h1 class="title">Retrieval Practice</h1>
+
 
         <header class="site-header">
-            <div class="nav-container">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="retrieval.html">Retrieval Practice</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
+            <div class="topnav" id="myTopnav">
+                <li><a href="index.html">Home</a>
+                    <a href="retrieval.html">Retrieval Practice</a>
+                    <a href="spacedpractice.html">Spaced Practice</a>
+                    <a href="elaboration.html">Elaboration</a>
+                    <a href="interleaving.html">Interleaving</a>
+                    <a href="concreteexamples.html">Concrete Examples</a>
+                    <a href="dualcoding.html">Dual Coding</a>
+                    <a href="about.html">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
             </div>
         </header>
-
-        <main role="main">
-            <section class="attractor">
-                <p> A for Effort. Believe it or not, the act of trying to remember things will make you better at remembering them.</p>
-            </section>
+        <h1 class="titletwo">Retrieval Practice</h1>
 
 
-            <section class="intro">
-                <h2>What is it</h2>
-                <p> Retrieval Practice is the act of remembering something or “bringing it to mind” as learning scientists say. This could be simply trying to write down everything you know about a subject on a blank page, or taking a practice test or using flash cards (if done correctly). The key is to not use notes or readings and just try to remember on your own.</p>
 
-                <P>Research has shown this to be one of the most effective study techniques.</P>
-            </section>
+            <main role="main">
+               <div class="wrapper2">
+                <section class="attractor">
+                    <p> A for Effort. Believe it or not, the act of trying to remember things will make you better at remembering them.</p>
+                </section>
 
 
+                <section class="intro">
+                    <h2>What is it</h2>
+                    <p> Retrieval Practice is the act of remembering something or “bringing it to mind” as learning scientists say. This could be simply trying to write down everything you know about a subject on a blank page, or taking a practice test or using flash cards (if done correctly). The key is to not use notes or readings and just try to remember on your own.</p>
+
+                    <p>Research has shown this to be one of the most effective study techniques.</p>
+        </section>
+                </div>
+
+
+        <div class="wrapper">
             <section class="resources">
                 <h2>Why is it Effective</h2>
                 <ul clas="resourceList">
@@ -90,11 +105,8 @@
 
                 <section class="videos">
                     <h2>Videos</h2>
-                    <ul>
-                        <li>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Pjrqc6UMDKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </li>
-                    </ul>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pjrqc6UMDKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
 
                 <section class="downloads">
@@ -134,14 +146,26 @@
                 </ul>
             </section>
 
-        </main>
-    </div>
-   
-    <footer class="site-footer">
-        <div class="license">
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
-        <p>Designed by Thalia Sebelen</p>
-    </footer>
+            </main>
+        </div>
+
+        <footer class="site-footer">
+            <div class="license">
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+            <p>Designed by Thalia Sebelen</p>
+        </footer>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+        </script>
 
 </body>
 
